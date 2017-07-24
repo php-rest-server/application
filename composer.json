@@ -10,5 +10,14 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "repositories": [
+        {
+            "type": "git",
+            "url": "github.com/php-rest-server/core.git"
+        }
+    ],
+    "require": {
+	    "php": ">=5.6.0",
+        "php-rest-server/core": "*"
+    }
 }
